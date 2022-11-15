@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:background="#B6EFB9"
+    tools:context=".Relative">
+
+    <Button
+        android:id="@+id/buttonC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:backgroundTint="#ECD8BC"
+        android:onClick="toastC"
+        android:text="C"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/buttonO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonNo"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@id/buttonNo"
+        android:backgroundTint="#8CD4F4"
+        android:onClick="toastO"
+        android:text="O"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/buttonE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonNe"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@id/buttonNe"
+        android:backgroundTint="#8CD4F4"
+        android:onClick="toastE"
+        android:text="E"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/buttonS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonSo"
+        android:layout_centerInParent="true"
+        android:backgroundTint="#ECD8BC"
+        android:onClick="toastS"
+        android:text="S"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/buttonN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/buttonNo"
+        android:layout_centerInParent="true"
+        android:backgroundTint="#ECD8BC"
+        android:onClick="toastN"
+        android:text="N"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/buttonNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/buttonC"
+        android:layout_toLeftOf="@id/buttonC"
+        android:backgroundTint="#D08EDC"
+        android:onClick="toastNo"
+        android:text="NO"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/buttonSo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonC"
+        android:layout_toLeftOf="@id/buttonC"
+        android:backgroundTint="#D08EDC"
+        android:onClick="toastSo"
+        android:text="SO"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/buttonNe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/buttonC"
+        android:layout_toRightOf="@id/buttonC"
+        android:backgroundTint="#D08EDC"
+        android:onClick="toastNe"
+        android:text="NE"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/buttonSe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonC"
+        android:layout_toRightOf="@id/buttonC"
+        android:backgroundTint="#D08EDC"
+        android:onClick="toastSe"
+        android:text="SE"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/goToTable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#A5A2A2"
+        android:onClick="table"
+        android:text="SIGUIENTE"
+        android:textColor="@color/black" />
+</RelativeLayout>
